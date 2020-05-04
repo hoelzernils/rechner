@@ -1,6 +1,9 @@
-<html>
-        <body>
-                {{ include('/editorial/header.html.twig') }}
+{{ include('/editorial/header.html.twig') }}
+                <!-- Content -->
+        <section>
+                <header class="main">
+                        <h1>Zinsrechner</h1>
+                </header>
                 <form action="" method="post">
                         Zinsen: <input type="text" name="rate"><br>
                         Wert einer Zahlung: <input type="text" name="kzahlung"><br>
@@ -9,11 +12,9 @@
                         <input type="submit" name="submit" value="go">
                         <span style="color: red;">Überprüfen Sie Ihre Eingaben</span>
                 </form>
-                </div>
-                </div>
+               </div>
+              </div>
+        </section>
                 {{ include('/editorial/sidebar.html.twig') }}   
-        </body>
-</html>
-
 
 
